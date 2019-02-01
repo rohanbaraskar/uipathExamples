@@ -1,0 +1,30 @@
+{
+  "name": "ACMHash",
+  "description": "Robotic Enterprise Framework",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Cognitive.Activities": "[2.1.6863.31992]",
+    "UiPath.UIAutomation.Activities": "[18.4.1]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.4.6884.25683]",
+    "UiPath.Mail.Activities": "[1.2.6863.29868]",
+    "UiPath.PDF.Activities": "[1.2.6863.34697]",
+    "UiPath.WebAPI.Activities": "[1.2.6863.33980]",
+    "UiPath.System.Activities": "[18.4.1]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "18.2",
+  "projectVersion": "1.0.6903.1147",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  }
+}
